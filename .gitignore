@@ -14,3 +14,15 @@ dist/
 build/
 .next/
 coverage/
+
+seed
+
+# req files
+*.http
+
+# All seed files
+backend/prisma/seeds/
+backend/prisma/*.seed.js
+backend/prisma/*.seed.ts
+
+

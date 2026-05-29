@@ -1,0 +1,11 @@
+export const USER_ROLES = {
+  ADMIN: "ADMIN",
+  DOCTOR: "DOCTOR",
+  PATIENT: "PATIENT",
+};
+
+export const USER_STATUS = {
+  ACTIVE: "ACTIVE",
+  SUSPENDED: "SUSPENDED",
+  INACTIVE: "INACTIVE",
+};

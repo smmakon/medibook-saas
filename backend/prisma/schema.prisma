@@ -1,14 +1,194 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
+}
+
+model User {
+  id             String          @id @default(uuid())
+  email          String          @unique
+  password       String
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+  deletedAt      DateTime?
+  firstName      String
+  lastLoginAt    DateTime?
+  lastName       String
+  phone          String?
+  status         UserStatus      @default(ACTIVE)
+  role           UserRole
+  activityLogs   ActivityLog[]
+  doctorProfile  DoctorProfile?
+  notifications  Notification[]
+  patientProfile PatientProfile?
+
+  @@index([role])
+  @@index([status])
+}
+
+model PatientProfile {
+  id                    String          @id @default(uuid())
+  userId                String          @unique
+  dateOfBirth           DateTime?
+  gender                String?
+  address               String?
+  city                  String?
+  postalCode            String?
+  emergencyContactName  String?
+  emergencyContactPhone String?
+  insuranceNumber       String?
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+  appointments          Appointment[]
+  medicalHistory        MedicalHistory?
+  user                  User            @relation(fields: [userId], references: [id])
+
+  @@index([city])
+}
+
+model Specialty {
+  id          String          @id @default(uuid())
+  name        String          @unique
+  description String?
+  isActive    Boolean         @default(true)
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+  doctors     DoctorProfile[]
+}
+
+model DoctorProfile {
+  id                    String                 @id @default(uuid())
+  userId                String                 @unique
+  specialtyId           String
+  licenseNumber         String                 @unique
+  bio                   String?
+  consultationFee       Decimal?
+  clinicAddress         String?
+  yearsOfExperience     Int?
+  isAvailable           Boolean                @default(true)
+  maxAppointmentsPerDay Int                    @default(20)
+  createdAt             DateTime               @default(now())
+  updatedAt             DateTime               @updatedAt
+  appointments          Appointment[]
+  availabilities        DoctorAvailability[]
+  specialty             Specialty              @relation(fields: [specialtyId], references: [id])
+  user                  User                   @relation(fields: [userId], references: [id])
+  unavailabilities      DoctorUnavailability[]
+
+  @@index([specialtyId])
+  @@index([isAvailable])
+}
+
+model DoctorAvailability {
+  id        String        @id @default(uuid())
+  doctorId  String
+  dayOfWeek DayOfWeek
+  startTime String
+  endTime   String
+  isActive  Boolean       @default(true)
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+  doctor    DoctorProfile @relation(fields: [doctorId], references: [id])
+
+  @@index([doctorId])
+  @@index([dayOfWeek])
+}
+
+model DoctorUnavailability {
+  id            String        @id @default(uuid())
+  doctorId      String
+  startDateTime DateTime
+  endDateTime   DateTime
+  reason        String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  doctor        DoctorProfile @relation(fields: [doctorId], references: [id])
+
+  @@index([doctorId])
+  @@index([startDateTime, endDateTime])
+}
+
+model Appointment {
+  id                 String            @id @default(uuid())
+  patientId          String
+  doctorId           String
+  startDateTime      DateTime
+  endDateTime        DateTime
+  status             AppointmentStatus @default(PENDING)
+  reason             String?
+  notes              String?
+  cancellationReason String?
+  cancelledAt        DateTime?
+  completedAt        DateTime?
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
+  doctor             DoctorProfile     @relation(fields: [doctorId], references: [id])
+  patient            PatientProfile    @relation(fields: [patientId], references: [id])
+
+  @@unique([doctorId, startDateTime, endDateTime])
+  @@index([patientId])
+  @@index([doctorId])
+  @@index([status])
+  @@index([startDateTime])
+}
+
+model MedicalHistory {
+  id                 String         @id @default(uuid())
+  patientId          String         @unique
+  allergies          String?
+  chronicDiseases    String?
+  currentMedications String?
+  surgeries          String?
+  familyHistory      String?
+  notes              String?
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+  patient            PatientProfile @relation(fields: [patientId], references: [id])
+}
+
+model Notification {
+  id        String              @id @default(uuid())
+  userId    String
+  type      NotificationType
+  channel   NotificationChannel
+  title     String
+  message   String
+  isRead    Boolean             @default(false)
+  sentAt    DateTime?
+  createdAt DateTime            @default(now())
+  user      User                @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([isRead])
+  @@index([createdAt])
+}
+
+model ActivityLog {
+  id        String   @id @default(uuid())
+  userId    String?
+  action    String
+  entity    String?
+  entityId  String?
+  ipAddress String?
+  userAgent String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+  user      User?    @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([action])
+  @@index([createdAt])
+}
+
+model Setting {
+  id          String   @id @default(uuid())
+  key         String   @unique
+  value       String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
 
 enum UserRole {
@@ -52,199 +232,4 @@ enum DayOfWeek {
   FRIDAY
   SATURDAY
   SUNDAY
-}
-
-model User {
-  id          String     @id @default(uuid())
-  firstName   String
-  lastName    String
-  email       String     @unique
-  password    String
-  phone       String?
-  role        UserRole
-  status      UserStatus @default(ACTIVE)
-  lastLoginAt DateTime?
-  createdAt   DateTime   @default(now())
-  updatedAt   DateTime   @updatedAt
-  deletedAt   DateTime?
-
-  patientProfile PatientProfile?
-  doctorProfile  DoctorProfile?
-  notifications  Notification[]
-  activityLogs   ActivityLog[]
-
-  @@index([role])
-  @@index([status])
-}
-
-model PatientProfile {
-  id                    String    @id @default(uuid())
-  userId                String    @unique
-  dateOfBirth           DateTime?
-  gender                String?
-  address               String?
-  city                  String?
-  postalCode            String?
-  emergencyContactName  String?
-  emergencyContactPhone String?
-  insuranceNumber       String?
-  createdAt             DateTime  @default(now())
-  updatedAt             DateTime  @updatedAt
-
-  user           User            @relation(fields: [userId], references: [id])
-  appointments   Appointment[]
-  medicalHistory MedicalHistory?
-
-  @@index([city])
-}
-
-model Specialty {
-  id          String   @id @default(uuid())
-  name        String   @unique
-  description String?
-  isActive    Boolean  @default(true)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-
-  doctors DoctorProfile[]
-}
-
-model DoctorProfile {
-  id                    String   @id @default(uuid())
-  userId                String   @unique
-  specialtyId           String
-  licenseNumber         String   @unique
-  bio                   String?
-  consultationFee       Decimal?
-  clinicAddress         String?
-  yearsOfExperience     Int?
-  isAvailable           Boolean  @default(true)
-  maxAppointmentsPerDay Int      @default(20)
-  createdAt             DateTime @default(now())
-  updatedAt             DateTime @updatedAt
-
-  user             User                   @relation(fields: [userId], references: [id])
-  specialty        Specialty              @relation(fields: [specialtyId], references: [id])
-  availabilities   DoctorAvailability[]
-  unavailabilities DoctorUnavailability[]
-  appointments     Appointment[]
-
-  @@index([specialtyId])
-  @@index([isAvailable])
-}
-
-model DoctorAvailability {
-  id        String    @id @default(uuid())
-  doctorId  String
-  dayOfWeek DayOfWeek
-  startTime String
-  endTime   String
-  isActive  Boolean   @default(true)
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
-
-  doctor DoctorProfile @relation(fields: [doctorId], references: [id])
-
-  @@index([doctorId])
-  @@index([dayOfWeek])
-}
-
-model DoctorUnavailability {
-  id            String   @id @default(uuid())
-  doctorId      String
-  startDateTime DateTime
-  endDateTime   DateTime
-  reason        String?
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-
-  doctor DoctorProfile @relation(fields: [doctorId], references: [id])
-
-  @@index([doctorId])
-  @@index([startDateTime, endDateTime])
-}
-
-model Appointment {
-  id                 String            @id @default(uuid())
-  patientId          String
-  doctorId           String
-  startDateTime      DateTime
-  endDateTime        DateTime
-  status             AppointmentStatus @default(PENDING)
-  reason             String?
-  notes              String?
-  cancellationReason String?
-  cancelledAt        DateTime?
-  completedAt        DateTime?
-  createdAt          DateTime          @default(now())
-  updatedAt          DateTime          @updatedAt
-
-  patient PatientProfile @relation(fields: [patientId], references: [id])
-  doctor  DoctorProfile  @relation(fields: [doctorId], references: [id])
-
-  @@unique([doctorId, startDateTime, endDateTime])
-  @@index([patientId])
-  @@index([doctorId])
-  @@index([status])
-  @@index([startDateTime])
-}
-
-model MedicalHistory {
-  id                 String   @id @default(uuid())
-  patientId          String   @unique
-  allergies          String?
-  chronicDiseases    String?
-  currentMedications String?
-  surgeries          String?
-  familyHistory      String?
-  notes              String?
-  createdAt          DateTime @default(now())
-  updatedAt          DateTime @updatedAt
-
-  patient PatientProfile @relation(fields: [patientId], references: [id])
-}
-
-model Notification {
-  id        String              @id @default(uuid())
-  userId    String
-  type      NotificationType
-  channel   NotificationChannel
-  title     String
-  message   String
-  isRead    Boolean             @default(false)
-  sentAt    DateTime?
-  createdAt DateTime            @default(now())
-
-  user User @relation(fields: [userId], references: [id])
-
-  @@index([userId])
-  @@index([isRead])
-  @@index([createdAt])
-}
-
-model ActivityLog {
-  id        String   @id @default(uuid())
-  userId    String?
-  action    String
-  entity    String?
-  entityId  String?
-  ipAddress String?
-  userAgent String?
-  metadata  Json?
-  createdAt DateTime @default(now())
-
-  user User? @relation(fields: [userId], references: [id])
-
-  @@index([userId])
-  @@index([action])
-  @@index([createdAt])
-}
-
-model Setting {
-  id          String   @id @default(uuid())
-  key         String   @unique
-  value       String
-  description String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
 }
