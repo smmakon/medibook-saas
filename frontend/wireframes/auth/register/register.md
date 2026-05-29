@@ -40,7 +40,7 @@ Fields:
 # Register Doctor Wireframe
 
 ## Page Objective
-Allow doctors or clinics to create a professional account.
+Allow Admin to create a Doctors or clinics professional account.
 
 ## Main Sections
 
