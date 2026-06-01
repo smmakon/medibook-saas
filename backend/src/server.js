@@ -4,6 +4,9 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/auth/auth.routes.js";
 import adminRoutes from "./routes/auth/admin.routes.js";
 import appointmentRoutes from "./routes/appointments/appointment.routes.js";
+import doctorAvailabilityRoutes from "./routes/doctor-availabilities/doctor-availability.routes.js";
+
+
 
 dotenv.config();
 
@@ -15,6 +18,7 @@ const PORT = process.env.PORT || 5000;
  */
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
 
 /**
  * Health check
@@ -33,6 +37,7 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/appointments", appointmentRoutes);
+app.use("/api/doctor-availabilities", doctorAvailabilityRoutes);
 
 /**
  * 404 handler
