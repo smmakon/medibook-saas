@@ -5,7 +5,7 @@ import authRoutes from "./routes/auth/auth.routes.js";
 import adminRoutes from "./routes/auth/admin.routes.js";
 import appointmentRoutes from "./routes/appointments/appointment.routes.js";
 import doctorAvailabilityRoutes from "./routes/doctor-availabilities/doctor-availability.routes.js";
-
+import doctorUnavailabilityRoutes from "./routes/doctor-unavailabilities/doctor-unavailability.routes.js";
 
 
 dotenv.config();
@@ -38,6 +38,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/appointments", appointmentRoutes);
 app.use("/api/doctor-availabilities", doctorAvailabilityRoutes);
+app.use("/api/doctor-unavailabilities", doctorUnavailabilityRoutes);
 
 /**
  * 404 handler
