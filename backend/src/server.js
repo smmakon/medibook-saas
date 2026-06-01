@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 
 import authRoutes from "./routes/auth/auth.routes.js";
 import adminRoutes from "./routes/auth/admin.routes.js";
+import appointmentRoutes from "./routes/appointments/appointment.routes.js";
 
 dotenv.config();
 
@@ -31,6 +32,7 @@ app.get("/", (req, res) => {
  */
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/appointments", appointmentRoutes);
 
 /**
  * 404 handler
