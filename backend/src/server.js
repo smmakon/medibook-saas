@@ -6,7 +6,7 @@ import adminRoutes from "./routes/auth/admin.routes.js";
 import appointmentRoutes from "./routes/appointments/appointment.routes.js";
 import doctorAvailabilityRoutes from "./routes/doctor-availabilities/doctor-availability.routes.js";
 import doctorUnavailabilityRoutes from "./routes/doctor-unavailabilities/doctor-unavailability.routes.js";
-
+import cors from "cors";
 
 dotenv.config();
 
@@ -30,6 +30,13 @@ app.get("/", (req, res) => {
     version: "1.0.0",
   });
 });
+
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
 
 /**
  * API routes
