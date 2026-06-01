@@ -6,3 +6,10 @@ node_modules
 seed
 
 req.http
+
+*.http
+
+# All seed files
+backend/prisma/seeds/
+backend/prisma/*.seed.js
+backend/prisma/*.seed.ts
