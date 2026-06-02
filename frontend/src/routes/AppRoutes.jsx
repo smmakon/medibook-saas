@@ -15,6 +15,8 @@ import ProtectedRoute from "./ProtectedRoute";
 import RoleBasedRoute from "./RoleBasedRoute";
 import { ROUTES } from "../routes/routes";
 
+import DashboardLayout from "../layouts/DashboardLayout";
+
 export default function AppRoutes() {
   return (
     <BrowserRouter>
@@ -28,30 +30,35 @@ export default function AppRoutes() {
         <Route path={ROUTES.UNAUTHORIZED} element={<Unauthorized />} />
 
         {/* Protected routes */}
-        <Route element={<ProtectedRoute />}>
-          <Route path={ROUTES.LOGOUT} element={<Logout />} />
+        
+          <Route element={<ProtectedRoute />}>
+            <Route path={ROUTES.LOGOUT} element={<Logout />} />
 
-          <Route element={<RoleBasedRoute allowedRoles={["PATIENT"]} />}>
-            <Route
-              path={ROUTES.PATIENT_DASHBOARD}
-              element={<PatientDashboard />}
-            />
+            <Route element={<DashboardLayout />}>
+              <Route element={<RoleBasedRoute allowedRoles={["PATIENT"]} />}>
+                <Route
+                  path={ROUTES.PATIENT_DASHBOARD}
+                  element={<PatientDashboard />}
+                />
+              </Route>
+
+              <Route element={<RoleBasedRoute allowedRoles={["DOCTOR"]} />}>
+                <Route
+                  path={ROUTES.DOCTOR_DASHBOARD}
+                  element={<DoctorDashboard />}
+                />
+              </Route>
+
+              <Route element={<RoleBasedRoute allowedRoles={["ADMIN"]} />}>
+                <Route
+                  path={ROUTES.ADMIN_DASHBOARD}
+                  element={<AdminDashboard />}
+                />
+              </Route>
+            </Route>
           </Route>
 
-          <Route element={<RoleBasedRoute allowedRoles={["DOCTOR"]} />}>
-            <Route
-              path={ROUTES.DOCTOR_DASHBOARD}
-              element={<DoctorDashboard />}
-            />
-          </Route>
 
-          <Route element={<RoleBasedRoute allowedRoles={["ADMIN"]} />}>
-            <Route
-              path={ROUTES.ADMIN_DASHBOARD}
-              element={<AdminDashboard />}
-            />
-          </Route>
-        </Route>
       </Routes>
     </BrowserRouter>
   );
