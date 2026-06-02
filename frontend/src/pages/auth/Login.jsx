@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { loginUser } from "../../services/authService";
-import { saveAuthData } from "../../config/storage";
+import { useAuth } from "../../context/AuthContext";
 import { isValidEmail } from "../../utils/validators";
 import AuthHeader from "../../components/common/AuthHeader";
 import toast from "react-hot-toast";
@@ -15,6 +15,7 @@ const initialForm = {
 
 export default function Login() {
   const navigate = useNavigate();
+  const {login} = useAuth();
 
   const [form, setForm] = useState(initialForm);
   const [error, setError] = useState("");
@@ -62,7 +63,7 @@ export default function Login() {
           password: form.password,
         });
 
-        saveAuthData({
+        login({
           token: data.token,
           user: data.user,
         });
