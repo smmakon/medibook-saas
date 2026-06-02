@@ -4,6 +4,8 @@ import { loginUser } from "../../services/authService";
 import { saveAuthData } from "../../config/storage";
 import { isValidEmail } from "../../utils/validators";
 import AuthHeader from "../../components/common/AuthHeader";
+import toast from "react-hot-toast";
+import { LogIn } from "lucide-react";
 
 const initialForm = {
   email: "",
@@ -52,25 +54,32 @@ export default function Login() {
       return;
     }
 
-    try {
-      setLoading(true);
+      try {
+        setLoading(true);
 
-      const data = await loginUser({
-        email: form.email.trim().toLowerCase(),
-        password: form.password,
-      });
+        const data = await loginUser({
+          email: form.email.trim().toLowerCase(),
+          password: form.password,
+        });
 
-      saveAuthData({
-        token: data.token,
-        user: data.user,
-      });
+        saveAuthData({
+          token: data.token,
+          user: data.user,
+        });
 
-      navigate(getRedirectPath(data.user.role));
-    } catch (error) {
-      setError(error.message || "Invalid email or password. Please try again.");
-    } finally {
-      setLoading(false);
-    }
+        toast.success(`Welcome back, ${data.user.firstName}!`);
+
+        setTimeout(() => {
+          navigate(getRedirectPath(data.user.role));
+        }, 1500);
+
+      } catch (error) {
+        toast.error(
+          error.message || "Invalid email or password. Please try again."
+        );
+      } finally {
+        setLoading(false);
+      }
   }
 
   return (
@@ -95,7 +104,7 @@ export default function Login() {
 
         <div className="w-full rounded-2xl bg-white p-8 shadow-2xl">
           <div className="mx-auto mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-blue-50 text-blue-600">
-            <span className="text-4xl">👤</span>
+            <span className="text-4xl"> <LogIn size={24} /> </span>
           </div>
 
           <div className="mb-7 text-center">
@@ -168,12 +177,13 @@ export default function Login() {
                 Remember me
               </label>
 
-              <button
-                type="button"
-                className="font-medium text-blue-600 hover:underline"
-              >
-                Forgot Password?
-              </button>
+                <Link
+                  to="/forgot-password"
+                  className="font-medium text-blue-600 hover:underline"
+                >
+                  Forgot Password?
+                </Link>
+
             </div>
 
             <button
