@@ -7,6 +7,9 @@ import {
   isValidEmail,
 } from "../../utils/validators";
 import AuthHeader from "../../components/common/AuthHeader";
+import { UserPlus } from "lucide-react";
+
+import toast from "react-hot-toast";
 
 const initialForm = {
   firstName: "",
@@ -31,7 +34,6 @@ export default function RegisterPatient() {
 
   const [form, setForm] = useState(initialForm);
   const [error, setError] = useState("");
-  const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
 
   function handleChange(event) {
@@ -64,7 +66,7 @@ export default function RegisterPatient() {
   async function handleSubmit(event) {
     event.preventDefault();
     setError("");
-    setSuccess("");
+
 
     const validationError = validateForm();
 
@@ -72,7 +74,6 @@ export default function RegisterPatient() {
       setError(validationError);
       return;
     }
-
     try {
       setLoading(true);
 
@@ -94,13 +95,13 @@ export default function RegisterPatient() {
 
       await registerPatient(payload);
 
-      setSuccess("Patient account created successfully");
+      toast.success("Patient account created successfully");
 
       setTimeout(() => {
         navigate("/login");
-      }, 1200);
+      }, 1500);
     } catch (error) {
-      setError(error.message || "Unable to register patient");
+      toast.error(error.message || "Unable to register patient");
     } finally {
       setLoading(false);
     }
@@ -126,7 +127,7 @@ export default function RegisterPatient() {
 
         <div className="w-full rounded-2xl bg-white p-8 shadow-2xl">
           <div className="mx-auto mb-5 flex h-20 w-20 items-center justify-center rounded-full bg-blue-50 text-blue-600">
-            <span className="text-4xl">👤</span>
+            <span className="text-4xl"> <UserPlus size={24} /> </span>
           </div>
 
           <div className="mb-7 text-center">
@@ -144,11 +145,6 @@ export default function RegisterPatient() {
             </div>
           )}
 
-          {success && (
-            <div className="mb-5 rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm font-medium text-green-700">
-              ✅ {success}
-            </div>
-          )}
 
               <form
                   onSubmit={handleSubmit}

@@ -24,9 +24,24 @@ model User {
   notifications  Notification[]
   patientProfile PatientProfile?
 
+  passwordResetTokens PasswordResetToken[]
+
   @@index([role])
   @@index([status])
 }
+
+
+
+model PasswordResetToken {
+  id        String   @id @default(uuid())
+  userId    String
+  tokenHash String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
 
 model PatientProfile {
   id                    String          @id @default(uuid())
