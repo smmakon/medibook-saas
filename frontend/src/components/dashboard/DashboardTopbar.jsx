@@ -1,60 +1,26 @@
 import { useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-
-import {
-  Bell,
-  ChevronDown,
-  LogOut,
-  Menu,
-  User,
-} from "lucide-react";
+import { Bell, ChevronDown, LogOut, Menu, User } from "lucide-react";
 
 import { useAuth } from "../../context/AuthContext";
 import { ROUTES } from "../../routes/routes";
+import { PAGE_META } from "../../config/pageMeta";
 
-const pageTitles = {
-  "/patient/dashboard": {
-    title: "Patient Dashboard",
-    subtitle:
-      "Here's an overview of your appointments and health journey.",
-  },
-
-  "/doctor/dashboard": {
-    title: "Doctor Dashboard",
-    subtitle:
-      "Manage appointments, patients and availability.",
-  },
-
-  "/admin/dashboard": {
-    title: "Admin Dashboard",
-    subtitle:
-      "Manage users, doctors, appointments and settings.",
-  },
-};
-
-export default function DashboardTopbar({
-  onMenuClick,
-}) {
+export default function DashboardTopbar({ onMenuClick }) {
   const { user } = useAuth();
-
   const location = useLocation();
-
   const [openMenu, setOpenMenu] = useState(false);
 
   const pageInfo = useMemo(() => {
     return (
-      pageTitles[location.pathname] || {
+      PAGE_META[location.pathname] || {
         title: "Dashboard",
-        subtitle:
-          "Manage your MediBook workspace.",
+        subtitle: "Manage your MediBook workspace.",
       }
     );
   }, [location.pathname]);
 
-  const avatarUrl =
-    user?.avatarUrl ||
-    user?.profileImage ||
-    null;
+  const avatarUrl = user?.avatarUrl || user?.profileImage || null;
 
   const initials = `${user?.firstName?.[0] || ""}${
     user?.lastName?.[0] || ""
@@ -85,18 +51,12 @@ export default function DashboardTopbar({
       <div className="flex items-center gap-5">
         <button className="relative rounded-full p-2 text-slate-500 hover:bg-white hover:text-blue-600">
           <Bell size={22} />
-
-          <span className="absolute right-1 top-1 flex h-5 w-5 items-center justify-center rounded-full text-xs font-bold text-white">
-            
-          </span>
         </button>
 
         <div className="relative">
           <button
             type="button"
-            onClick={() =>
-              setOpenMenu(!openMenu)
-            }
+            onClick={() => setOpenMenu((prev) => !prev)}
             className="flex items-center gap-3 rounded-xl px-2 py-2 hover:bg-white"
           >
             {avatarUrl ? (
@@ -107,23 +67,19 @@ export default function DashboardTopbar({
               />
             ) : (
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-200 font-semibold text-slate-600">
-                {initials || (
-                  <User size={20} />
-                )}
+                {initials || <User size={20} />}
               </div>
             )}
 
-            <span className="hidden font-semibold text-slate-900 md:block">
-              {user?.firstName}
-                     <span className="text-xs font-normal text-slate-500">
-                        {user?.role}
-                    </span>
+            <span className="hidden text-left font-semibold text-slate-900 md:block">
+              {user?.firstName || "System"}
+              <br />
+              <span className="text-xs font-normal text-slate-500">
+                {user?.role || "USER"}
+              </span>
             </span>
 
-            <ChevronDown
-              size={18}
-              className="text-slate-500"
-            />
+            <ChevronDown size={18} className="text-slate-500" />
           </button>
 
           {openMenu && (
