@@ -9,7 +9,7 @@ import Unauthorized from "../pages/auth/Unauthorized";
 
 import PatientDashboard from "../pages/dashboards/PatientDashboard";
 import DoctorDashboard from "../pages/dashboards/DoctorDashboard";
-import AdminDashboard from "../pages/dashboards/AdminDashboard";
+import AdminDashboard from "../pages/admin/AdminDashboard";
 
 import ProtectedRoute from "./ProtectedRoute";
 import RoleBasedRoute from "./RoleBasedRoute";
