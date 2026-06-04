@@ -50,6 +50,7 @@ app.use("/api/auth/admin", authAdminRoutes);
 // Routes admin générales : dashboard stats, gestion users, etc.
 app.use("/api/admin", adminRoutes);
 
+
 app.use("/api/appointments", appointmentRoutes);
 app.use("/api/doctor-availabilities", doctorAvailabilityRoutes);
 app.use("/api/doctor-unavailabilities", doctorUnavailabilityRoutes);
