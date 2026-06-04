@@ -15,7 +15,7 @@ export async function updateDoctorController(
     return res.status(200).json({
       success: true,
       message:
-        "Doctor updated successfully",
+        "Doctor updated successfulli",
       data: doctor,
     });
   } catch (error) {
