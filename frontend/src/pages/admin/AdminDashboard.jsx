@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import {
   Calendar,
+  CalendarDays,
+  CalendarClock,
   CheckCircle,
   Clock,
   Stethoscope,
@@ -125,7 +127,15 @@ export default function AdminDashboard() {
             title: "Appointments",
             value: stats?.overview?.totalAppointments || 0,
             description: "Total appointments",
-            icon: Calendar,
+            icon: CalendarDays,
+            iconBgColor: "bg-amber-50",
+            iconTextColor: "text-amber-600",
+          },
+          {
+            title: "Today's Appointments",
+            value: stats?.overview?.totalAppointments || 0,
+            description: "Total appointments",
+            icon: CalendarClock,
             iconBgColor: "bg-amber-50",
             iconTextColor: "text-amber-600",
           },
