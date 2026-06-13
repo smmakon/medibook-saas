@@ -11,4 +11,14 @@ export const ROUTES = {
   PATIENT_DASHBOARD: "/patient/dashboard",
   DOCTOR_DASHBOARD: "/doctor/dashboard",
   ADMIN_DASHBOARD: "/admin/dashboard",
+
+
+  // Doctors Management
+  ADMIN_DOCTORS: "/admin/doctors",
+  ADMIN_CREATE_DOCTOR: "/admin/doctors",
+  ADMIN_EDIT_DOCTOR: "/admin/doctors/edit/:id",
+  ADMIN_DOCTOR_DETAILS: "/admin/doctors/:id",
+
+  // Specialties
+  ADMIN_SPECIALTIES: "/admin/specialties",
 };

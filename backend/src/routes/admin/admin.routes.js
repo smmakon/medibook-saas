@@ -7,6 +7,17 @@ import { getDoctorByIdController } from "../../controllers/admin/get-doctor-by-i
 import { updateDoctorController } from "../../controllers/admin/update-doctor.controller.js";
 import { updateDoctorStatusController }
 from "../../controllers/admin/update-doctor-status.controller.js";
+import { createDoctorController } from "../../controllers/admin/create-doctor.controller.js";
+import { validateCreateDoctor } from "../../validators/admin/create-doctor.validator.js";
+
+import {
+  getSpecialties,
+  createSpecialty,
+  updateSpecialty,
+  archiveSpecialty,
+} from "../../controllers/admin/specialty.controller.js";
+
+
 
 import { validateUpdateDoctor } from "../../validators/admin/update-doctor.validator.js";
 
@@ -34,6 +45,16 @@ router.get(
   getDoctorByIdController
 );
 
+
+router.post(
+  "/doctors",
+  authMiddleware,
+  authorizeRoles(USER_ROLES.ADMIN),
+  validateCreateDoctor,
+  createDoctorController
+);
+
+
 router.put(
   "/doctors/:id",
   authMiddleware,
@@ -50,5 +71,10 @@ router.patch(
   updateDoctorStatusController
 );
 
+
+router.get("/specialties", authMiddleware, authorizeRoles(USER_ROLES.ADMIN), getSpecialties);
+router.post("/specialties", authMiddleware, authorizeRoles(USER_ROLES.ADMIN), createSpecialty);
+router.patch("/specialties/:id", authMiddleware, authorizeRoles(USER_ROLES.ADMIN), updateSpecialty);
+router.delete("/specialties/:id", authMiddleware, authorizeRoles(USER_ROLES.ADMIN), archiveSpecialty);
 
 export default router;
