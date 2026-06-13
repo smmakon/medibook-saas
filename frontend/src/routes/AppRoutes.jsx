@@ -11,6 +11,16 @@ import PatientDashboard from "../pages/dashboards/PatientDashboard";
 import DoctorDashboard from "../pages/dashboards/DoctorDashboard";
 import AdminDashboard from "../pages/admin/AdminDashboard";
 
+
+
+import DoctorsPage from "../pages/admin/doctors/DoctorsPage";
+// import CreateDoctorPage from "../pages/admin/CreateDoctorPage";
+// import EditDoctorPage from "../pages/admin/EditDoctorPage";
+// import DoctorDetailsPage from "../pages/admin/DoctorDetailsPage";
+
+import SpecialtiesPage from "../pages/admin/specialties/SpecialtiesPage";
+
+
 import ProtectedRoute from "./ProtectedRoute";
 import RoleBasedRoute from "./RoleBasedRoute";
 import { ROUTES } from "../routes/routes";
@@ -50,15 +60,13 @@ export default function AppRoutes() {
               </Route>
 
               <Route element={<RoleBasedRoute allowedRoles={["ADMIN"]} />}>
-                <Route
-                  path={ROUTES.ADMIN_DASHBOARD}
-                  element={<AdminDashboard />}
-                />
+                <Route path={ROUTES.ADMIN_DASHBOARD} element={<AdminDashboard />} />
+                <Route path={ROUTES.ADMIN_DOCTORS} element={<DoctorsPage />} />
+                <Route path={ROUTES.ADMIN_SPECIALTIES} element={<SpecialtiesPage />} />
               </Route>
+                           
             </Route>
           </Route>
-
-
       </Routes>
     </BrowserRouter>
   );
