@@ -14,6 +14,8 @@ import AdminDashboard from "../pages/admin/AdminDashboard";
 
 
 import DoctorsPage from "../pages/admin/doctors/DoctorsPage";
+import PatientsPage from "../pages/admin/patients/PatientsPage"
+
 // import CreateDoctorPage from "../pages/admin/CreateDoctorPage";
 // import EditDoctorPage from "../pages/admin/EditDoctorPage";
 // import DoctorDetailsPage from "../pages/admin/DoctorDetailsPage";
@@ -62,6 +64,7 @@ export default function AppRoutes() {
               <Route element={<RoleBasedRoute allowedRoles={["ADMIN"]} />}>
                 <Route path={ROUTES.ADMIN_DASHBOARD} element={<AdminDashboard />} />
                 <Route path={ROUTES.ADMIN_DOCTORS} element={<DoctorsPage />} />
+                <Route path={ROUTES.ADMIN_PATIENTS} element={<PatientsPage />} />
                 <Route path={ROUTES.ADMIN_SPECIALTIES} element={<SpecialtiesPage />} />
               </Route>
                            

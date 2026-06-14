@@ -1,0 +1,766 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\DoctorTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\sidebarsMenus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\config\\sidebarsMenus.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\pageMeta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\config\\pageMeta.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\prisma\\schema.prisma||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\prisma\\schema.prisma||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\patients\\PatientTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\patients\\PatientTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\DoctorsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\admin\\doctors\\DoctorsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\patients\\PatientsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\admin\\patients\\PatientsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\wireframes\\admin\\users-management\\users-page.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\wireframes\\admin\\users-management\\users-page.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\DoctorModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorForm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\DoctorForm.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorFilters.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\DoctorFilters.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorDetailsModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\DoctorDetailsModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\DoctorCard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\ConfirmArchiveModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\admin\\doctors\\ConfirmArchiveModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\layouts\\DashboardLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\layouts\\DashboardLayout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\services\\adminService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\services\\adminService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useDoctorsQuery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\hooks\\admin\\useDoctorsQuery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useCreateDoctorMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\hooks\\admin\\useCreateDoctorMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\DoctorDetailsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\admin\\doctors\\DoctorDetailsPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\EditDoctorPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\admin\\doctors\\EditDoctorPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\AppRoutes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\AppRoutes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\ProtectedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\ProtectedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\RoleBasedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\RoleBasedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\get-doctors.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\services\\admin\\get-doctors.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\controllers\\admin\\get-doctors.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\controllers\\admin\\get-doctors.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\get-patients.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\services\\admin\\get-patients.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\routes\\admin\\admin.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\routes\\admin\\admin.routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\utils\\specialty.validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\utils\\specialty.validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\utils\\validators.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\utils\\validators.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\context\\AuthContext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\context\\AuthContext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\CreateDoctorPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\admin\\doctors\\CreateDoctorPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useArchiveDoctorMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\hooks\\admin\\useArchiveDoctorMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useArchiveSpecialtyMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\hooks\\admin\\useArchiveSpecialtyMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\services\\authService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\services\\authService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useUpdateDoctorMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\hooks\\admin\\useUpdateDoctorMutation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\storage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\config\\storage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\config\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\common\\Tooltip.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\components\\common\\Tooltip.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\create-admin.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\services\\admin\\create-admin.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\controllers\\admin\\create-admin.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\controllers\\admin\\create-admin.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\src\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1418685207:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "schema.prisma",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\prisma\\schema.prisma",
+              "RelativeDocumentMoniker": "backend\\prisma\\schema.prisma",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\prisma\\schema.prisma",
+              "RelativeToolTip": "backend\\prisma\\schema.prisma",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-06-14T22:30:31.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientTable.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\patients\\PatientTable.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\patients\\PatientTable.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\patients\\PatientTable.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\patients\\PatientTable.jsx",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:22:24.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "users-page.png -  [Fran\u00E7ais (France)] - PNG [1536x1024, 24 bits, PNG]",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\wireframes\\admin\\users-management\\users-page.png",
+              "RelativeDocumentMoniker": "frontend\\wireframes\\admin\\users-management\\users-page.png",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\wireframes\\admin\\users-management\\users-page.png -  [Fran\u00E7ais (France)] - PNG [1536x1024, 24 bits, PNG]",
+              "RelativeToolTip": "frontend\\wireframes\\admin\\users-management\\users-page.png -  [Fran\u00E7ais (France)] - PNG [1536x1024, 24 bits, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-06-14T22:10:47.301Z",
+              "EditorCaption": " -  [Fran\u00E7ais (France)] - PNG [1536x1024, 24 bits, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorTable.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorTable.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\DoctorTable.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorTable.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\DoctorTable.jsx",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:07:16.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorModal.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorModal.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\DoctorModal.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorModal.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\DoctorModal.jsx",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:07:04.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoctorFilters.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorFilters.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\DoctorFilters.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorFilters.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\DoctorFilters.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:07:00.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorDetailsModal.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorDetailsModal.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\DoctorDetailsModal.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorDetailsModal.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\DoctorDetailsModal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:06:58.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoctorCard.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorCard.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\DoctorCard.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorCard.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\DoctorCard.jsx",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:04:56.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfirmArchiveModal.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\ConfirmArchiveModal.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\ConfirmArchiveModal.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\ConfirmArchiveModal.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\ConfirmArchiveModal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:04:48.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardLayout.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\layouts\\DashboardLayout.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\layouts\\DashboardLayout.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\layouts\\DashboardLayout.jsx",
+              "RelativeToolTip": "frontend\\src\\layouts\\DashboardLayout.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T22:03:15.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditDoctorPage.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\EditDoctorPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\admin\\doctors\\EditDoctorPage.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\EditDoctorPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\admin\\doctors\\EditDoctorPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T17:13:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PatientsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\patients\\PatientsPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\admin\\patients\\PatientsPage.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\patients\\PatientsPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\admin\\patients\\PatientsPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T17:07:58.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProtectedRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\ProtectedRoute.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\routes\\ProtectedRoute.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\ProtectedRoute.jsx",
+              "RelativeToolTip": "frontend\\src\\routes\\ProtectedRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T16:59:49.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoleBasedRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\RoleBasedRoute.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\routes\\RoleBasedRoute.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\RoleBasedRoute.jsx",
+              "RelativeToolTip": "frontend\\src\\routes\\RoleBasedRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T16:59:46.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "get-doctors.service.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\get-doctors.service.js",
+              "RelativeDocumentMoniker": "backend\\src\\services\\admin\\get-doctors.service.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\get-doctors.service.js",
+              "RelativeToolTip": "backend\\src\\services\\admin\\get-doctors.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T16:35:02.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "get-doctors.controller.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\controllers\\admin\\get-doctors.controller.js",
+              "RelativeDocumentMoniker": "backend\\src\\controllers\\admin\\get-doctors.controller.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\controllers\\admin\\get-doctors.controller.js",
+              "RelativeToolTip": "backend\\src\\controllers\\admin\\get-doctors.controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T16:33:16.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "admin.routes.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\routes\\admin\\admin.routes.js",
+              "RelativeDocumentMoniker": "backend\\src\\routes\\admin\\admin.routes.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\routes\\admin\\admin.routes.js",
+              "RelativeToolTip": "backend\\src\\routes\\admin\\admin.routes.js",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T16:31:11.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "get-patients.service.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\get-patients.service.js",
+              "RelativeDocumentMoniker": "backend\\src\\services\\admin\\get-patients.service.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\get-patients.service.js",
+              "RelativeToolTip": "backend\\src\\services\\admin\\get-patients.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T16:27:41.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "validators.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\utils\\validators.js",
+              "RelativeDocumentMoniker": "frontend\\src\\utils\\validators.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\utils\\validators.js",
+              "RelativeToolTip": "frontend\\src\\utils\\validators.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T16:15:00.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "routes.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\routes.js",
+              "RelativeDocumentMoniker": "frontend\\src\\routes\\routes.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\routes.js",
+              "RelativeToolTip": "frontend\\src\\routes\\routes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T16:03:14.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorForm.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorForm.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\admin\\doctors\\DoctorForm.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\admin\\doctors\\DoctorForm.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\admin\\doctors\\DoctorForm.jsx",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T16:00:49.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\DoctorsPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\admin\\doctors\\DoctorsPage.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\DoctorsPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\admin\\doctors\\DoctorsPage.jsx",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAEYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:58:54.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorDetailsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\DoctorDetailsPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\admin\\doctors\\DoctorDetailsPage.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\DoctorDetailsPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\admin\\doctors\\DoctorDetailsPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:58:50.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateDoctorPage.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\CreateDoctorPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\admin\\doctors\\CreateDoctorPage.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\pages\\admin\\doctors\\CreateDoctorPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\admin\\doctors\\CreateDoctorPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:58:44.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\App.jsx",
+              "RelativeToolTip": "frontend\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:52:16.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppRoutes.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\AppRoutes.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\routes\\AppRoutes.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\routes\\AppRoutes.jsx",
+              "RelativeToolTip": "frontend\\src\\routes\\AppRoutes.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:42:22.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "authService.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\services\\authService.js",
+              "RelativeDocumentMoniker": "frontend\\src\\services\\authService.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\services\\authService.js",
+              "RelativeToolTip": "frontend\\src\\services\\authService.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:40:35.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "specialty.validation.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\utils\\specialty.validation.js",
+              "RelativeDocumentMoniker": "frontend\\src\\utils\\specialty.validation.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\utils\\specialty.validation.js",
+              "RelativeToolTip": "frontend\\src\\utils\\specialty.validation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:40:29.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "adminService.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\services\\adminService.js",
+              "RelativeDocumentMoniker": "frontend\\src\\services\\adminService.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\services\\adminService.js",
+              "RelativeToolTip": "frontend\\src\\services\\adminService.js",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAAAOIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:36:43.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "useUpdateDoctorMutation.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useUpdateDoctorMutation.js",
+              "RelativeDocumentMoniker": "frontend\\src\\hooks\\admin\\useUpdateDoctorMutation.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useUpdateDoctorMutation.js",
+              "RelativeToolTip": "frontend\\src\\hooks\\admin\\useUpdateDoctorMutation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:35:57.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "useDoctorsQuery.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useDoctorsQuery.js",
+              "RelativeDocumentMoniker": "frontend\\src\\hooks\\admin\\useDoctorsQuery.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useDoctorsQuery.js",
+              "RelativeToolTip": "frontend\\src\\hooks\\admin\\useDoctorsQuery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:35:55.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "useCreateDoctorMutation.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useCreateDoctorMutation.js",
+              "RelativeDocumentMoniker": "frontend\\src\\hooks\\admin\\useCreateDoctorMutation.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useCreateDoctorMutation.js",
+              "RelativeToolTip": "frontend\\src\\hooks\\admin\\useCreateDoctorMutation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:35:50.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "useArchiveSpecialtyMutation.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useArchiveSpecialtyMutation.js",
+              "RelativeDocumentMoniker": "frontend\\src\\hooks\\admin\\useArchiveSpecialtyMutation.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useArchiveSpecialtyMutation.js",
+              "RelativeToolTip": "frontend\\src\\hooks\\admin\\useArchiveSpecialtyMutation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:35:47.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "useArchiveDoctorMutation.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useArchiveDoctorMutation.js",
+              "RelativeDocumentMoniker": "frontend\\src\\hooks\\admin\\useArchiveDoctorMutation.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\hooks\\admin\\useArchiveDoctorMutation.js",
+              "RelativeToolTip": "frontend\\src\\hooks\\admin\\useArchiveDoctorMutation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:35:29.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthContext.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\context\\AuthContext.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\context\\AuthContext.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\context\\AuthContext.jsx",
+              "RelativeToolTip": "frontend\\src\\context\\AuthContext.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:34:53.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "storage.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\storage.js",
+              "RelativeDocumentMoniker": "frontend\\src\\config\\storage.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\storage.js",
+              "RelativeToolTip": "frontend\\src\\config\\storage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:31:54.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sidebarsMenus.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\sidebarsMenus.js",
+              "RelativeDocumentMoniker": "frontend\\src\\config\\sidebarsMenus.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\sidebarsMenus.js",
+              "RelativeToolTip": "frontend\\src\\config\\sidebarsMenus.js",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:30:49.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pageMeta.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\pageMeta.js",
+              "RelativeDocumentMoniker": "frontend\\src\\config\\pageMeta.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\pageMeta.js",
+              "RelativeToolTip": "frontend\\src\\config\\pageMeta.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:30:11.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\api.js",
+              "RelativeDocumentMoniker": "frontend\\src\\config\\api.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\config\\api.js",
+              "RelativeToolTip": "frontend\\src\\config\\api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:29:26.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Tooltip.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\common\\Tooltip.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\common\\Tooltip.jsx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\frontend\\src\\components\\common\\Tooltip.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\common\\Tooltip.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-14T15:28:33.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "create-admin.service.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\create-admin.service.js",
+              "RelativeDocumentMoniker": "backend\\src\\services\\admin\\create-admin.service.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\services\\admin\\create-admin.service.js",
+              "RelativeToolTip": "backend\\src\\services\\admin\\create-admin.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:22:01.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "create-admin.controller.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\controllers\\admin\\create-admin.controller.js",
+              "RelativeDocumentMoniker": "backend\\src\\controllers\\admin\\create-admin.controller.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\controllers\\admin\\create-admin.controller.js",
+              "RelativeToolTip": "backend\\src\\controllers\\admin\\create-admin.controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:20:58.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\server.js",
+              "RelativeDocumentMoniker": "backend\\src\\server.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Cv_2026\\Medibook\\medibook-saas\\backend\\src\\server.js",
+              "RelativeToolTip": "backend\\src\\server.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-14T15:12:17.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

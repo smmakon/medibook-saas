@@ -32,8 +32,8 @@ export function getSidebarMenuItems(role) {
         group: "User Management",
         items: [
           {
-            label: "Users",
-            path: "/admin/users",
+            label: "Patients",
+            path: "/admin/patients",
             icon: Users,
           },
           {
@@ -41,11 +41,11 @@ export function getSidebarMenuItems(role) {
             path: "/admin/doctors",
             icon: Stethoscope,
           },
-          {
-            label: "Administrators",
-            path: "/admin/administrators",
-            icon: Shield,
-          },
+          //{
+          //  label: "Administrators",
+          //  path: "/admin/administrators",
+          //  icon: Shield,
+          //},
         ],
       },
       {

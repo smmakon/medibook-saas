@@ -3,6 +3,7 @@ import { getAdminDashboardStatsController } from "../../controllers/admin/admin-
 import {authMiddleware,authorizeRoles} from "../../middlewares/auth/auth.middleware.js"
 import {USER_ROLES} from "../../constants/users/user.constants.js"
 import { getDoctorsController } from "../../controllers/admin/get-doctors.controller.js";
+import { getPatientsController } from "../../controllers/admin/get-patients.controller.js";
 import { getDoctorByIdController } from "../../controllers/admin/get-doctor-by-id.controller.js";
 import { updateDoctorController } from "../../controllers/admin/update-doctor.controller.js";
 import { updateDoctorStatusController }
@@ -37,6 +38,15 @@ router.get(
   authorizeRoles(USER_ROLES.ADMIN),
   getDoctorsController
 );
+
+
+router.get(
+  "/patients",
+  authMiddleware,
+  authorizeRoles(USER_ROLES.ADMIN),
+  getPatientsController
+);
+
 
 router.get(
   "/doctors/:id",

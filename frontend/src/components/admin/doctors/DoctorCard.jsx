@@ -35,7 +35,7 @@ export default function DoctorCard({ doctor }) {
 
         <p>
           Fee :
-          ${doctor.consultationFee}
+          {/*${doctor.consultationFee}*/}
         </p>
 
       </div>

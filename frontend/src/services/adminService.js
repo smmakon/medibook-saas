@@ -218,3 +218,35 @@ export async function archiveSpecialty(id) {
 
   return json;
 }
+
+
+// Gestion des patients
+
+
+// GET PATIENTS
+export async function getPatients({
+    page = 1,
+    search = "",
+    limit = 10,
+}) {
+    const params = new URLSearchParams({
+        page,
+        search,
+        limit,
+    });
+
+    const res = await fetch(
+        `${API_URL}/admin/patients?${params}`,
+        {
+            headers: {
+                Authorization: `Bearer ${getToken()}`,
+            },
+        }
+    );
+
+    const data = await res.json();
+
+    if (!res.ok) throw new Error(data.message);
+
+    return data;
+}

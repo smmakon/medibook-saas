@@ -15,6 +15,7 @@ export const ROUTES = {
 
   // Doctors Management
   ADMIN_DOCTORS: "/admin/doctors",
+  ADMIN_PATIENTS : "/admin/patients",
   ADMIN_CREATE_DOCTOR: "/admin/doctors",
   ADMIN_EDIT_DOCTOR: "/admin/doctors/edit/:id",
   ADMIN_DOCTOR_DETAILS: "/admin/doctors/:id",

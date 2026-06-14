@@ -3,9 +3,9 @@ export const PAGE_META = {
     title: "Dashboard",
     subtitle: "Platform overview and management.",
   },
-  "/admin/users": {
-    title: "Users",
-    subtitle: "Manage patients, doctors and administrators.",
+  "/admin/patients": {
+    title: "Patients",
+    subtitle: "Manage patients.",
   },
   "/admin/doctors": {
     title: "Doctors",
